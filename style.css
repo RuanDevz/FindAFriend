@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #F15156;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+
+.buscaramigo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-430%);
+}
+
+header h1{
+    font-weight: bolder;
+    color: white;
+}
+
+main img{
+    display: block;
+    margin: 0 auto;
+    width:90%;
+}
+
+main h2{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+main p{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button#buscar{
+    background: #F4D35E;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border: none;
+    background-image: url("imagens/Procurar.png");
+
+}
+
+.cidades{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagens_e_textos {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+select#sigla{
+    border: 1px solid white;
+    background: #F15156;
+    color: white;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+select#cidade{
+    border: none;
+    background: #E44449;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('imagens/seta.png');
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    text-indent: 0.01px;
+    text-overflow: '';
+    padding: 15px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px 0;
+    border: none;
+}
