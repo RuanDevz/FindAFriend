@@ -18,6 +18,7 @@ header{
     gap: 10px;
     flex-direction: row-reverse;
     margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 .buscaramigo{
@@ -117,3 +118,52 @@ select#cidade{
     margin: 10px 0;
     border: none;
 }
+
+@media screen and (min-width: 1280px) {
+
+    header{
+        max-width: 400px;
+        display: flex;
+        justify-content: left;
+        margin-left: 100px;
+    }
+    .imagens_e_textos{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .imagens_e_textos h2{
+        position: relative;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -75%);
+        max-width: 400px;
+        font-size: 4em;
+        font-style: normal;
+        margin-left: 100px;
+        text-align: left;
+        font-style: bold;
+    }
+
+    .imagens_e_textos p{
+        display: none;
+    }
+    .imagens_e_textos img{
+        position: relative;
+        top: 50%;
+        left: 0%;
+        transform: translate(10%, -88%);
+        width: 592px;
+    }
+
+    .subtitulo{
+        position: absolute;
+        top: 80%;
+        left: 7.5%;
+    }
+
+    .subtitulo p{
+        font-size: 1.7em;
+    }
+  }
