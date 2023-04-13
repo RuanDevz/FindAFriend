@@ -36,7 +36,7 @@ header h1{
 main img{
     display: block;
     margin: 0 auto;
-    width:90%;
+    width: 392px;
 }
 
 main h2{
@@ -206,14 +206,16 @@ select#cidade{
     ::-webkit-scrollbar{
         display: none;
     }
-    @media screen and (min-width: 1280px){
+    @media screen and (min-width: 1920px){
         .imagens_e_textos h2{
             margin-top: 70px;
             font-size: 4em;
         }
 
         .imagens_e_textos img{
-            width: 750px;
+            position: relative;
+            top: 28px;
+            width: 670px;
         }
 
         select#sigla{
