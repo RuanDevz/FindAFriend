@@ -128,6 +128,7 @@ select#cidade{
         margin-left: 100px;
     }
     .imagens_e_textos{
+        position: relative;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -137,7 +138,7 @@ select#cidade{
         position: relative;
         top: 50%;
         left: 0%;
-        transform: translate(0%, -75%);
+        transform: translate(0%, 25%);
         max-width: 400px;
         font-size: 4em;
         font-style: normal;
@@ -153,7 +154,7 @@ select#cidade{
         position: relative;
         top: 50%;
         left: 0%;
-        transform: translate(10%, -88%);
+        transform: translate(10%, 10%);
         width: 592px;
     }
 
@@ -166,4 +167,44 @@ select#cidade{
     .subtitulo p{
         font-size: 1.7em;
     }
+
+    .cidades{
+        margin-top: 280px;
+        margin-left: 290px;
+    }
+
+    select#sigla{
+        margin-top: 30px;
+        padding: 25px;
+        font-size: 1.7em;
+        
+    }
+    select#cidade{
+        margin-top: 40px;
+        padding: 25px;
+        font-size: 1.7em;
+    }
+
+    button#buscar{
+        margin-top: 30px;
+        padding: 40px;
+    }
+
+    button#buscar:hover{
+        cursor: pointer;
+    }
+
+
+
+    .buscaramigo p{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(115%, 960%);
+        font-size: 1.5em;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
   }
