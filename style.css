@@ -138,7 +138,7 @@ select#cidade{
         position: relative;
         top: 50%;
         left: 0%;
-        transform: translate(0%, 25%);
+        transform: translate(0%, 33%);
         max-width: 400px;
         font-size: 4em;
         font-style: normal;
@@ -206,5 +206,30 @@ select#cidade{
     ::-webkit-scrollbar{
         display: none;
     }
+    @media screen and (min-width: 1280px){
+        .imagens_e_textos h2{
+            margin-top: 70px;
+            font-size: 4em;
+        }
 
+        .imagens_e_textos img{
+            width: 750px;
+        }
+
+        select#sigla{
+            margin-top: 170px;
+        }
+
+        select#cidade{
+            margin-top: 185px;
+        }
+
+        button#buscar{
+            margin-top: 175px;
+        }
+
+        .buscaramigo p{
+            padding-top: 5px;
+        }
+    }
   }
