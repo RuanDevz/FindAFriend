@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    
+}
+
+header h1{
+    font-size: 2.3em;
+    max-width: 330px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+    color: #0D3B66;
+    font-weight: bolder;
+}
+
+.formulario{
+    text-align: center;
+    display: block;
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+.formulario p {
+    color: #0D3B66;
+    margin-left: 14px;
+}
+
+.formulario input{
+    width: 93%;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.formulario p{
+    text-align: left;
+}
+
+input#email, input#senha{
+    background: #F5F8FA;
+    margin: 10px 0px;
+}
+
+input#senha{
+    position: relative;
+}
+
+input#botao{
+    margin-top: 30px;
+    background: #0D3B66;
+    color: #fff;
+    width: 330px;
+}
+
+.fa-eye-slash{
+    position: absolute;
+    transform: translate(-164%, 125%);
+}
+
+.btn{
+    max-width: 330px;
+    margin: 0 auto;
+    width: 330px
+}
+
+a{
+    text-decoration: none;
+    background: #F3F5F7;
+    font-weight: bolder;
+    color: #0D3B66;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
