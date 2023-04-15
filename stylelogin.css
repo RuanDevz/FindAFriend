@@ -19,12 +19,8 @@ header h1{
     padding-top: 120px;
     color: #0D3B66;
     font-weight: bolder;
-    padding-bottom: 50px;
 }
 
-.name h1{
-    display: none;
-}
 .formulario{
     text-align: center;
     display: block;
