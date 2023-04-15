@@ -19,6 +19,11 @@ header h1{
     padding-top: 120px;
     color: #0D3B66;
     font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.name h1{
+    display: none;
 }
 
 .formulario{
@@ -179,9 +184,38 @@ img{
     }
 
     .name h1{
+        display: block;
         font-size: 2em;
         color: white;
         padding-top: 120px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        header h1{
+            margin-left: 1290px;
+            margin-top: 100px;
+        }
+
+        .imagem{
+            width: 700px;
+            height: 750px;
+            position: relative;
+            transform: translate(0%, -15%);
+        }
+
+        .name h1{
+            font-size: 3em;
+        }
+
+        img#klogo{
+            width: 200px;
+        }
+
+        img#cachorro{
+            width: 630px;
+            position: relative;
+            transform: translate(-3%, 0%);
+        }
     }
 }
 
