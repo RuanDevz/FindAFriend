@@ -63,11 +63,13 @@ input#botao{
 .fa-eye-slash{
     position: absolute;
     transform: translate(-164%, 125%);
+    cursor: pointer;
 }
 
 .fa-eye{
     position: absolute;
     transform: translate(-164%, 125%);
+    cursor: pointer;
 }
 
 .btn{
