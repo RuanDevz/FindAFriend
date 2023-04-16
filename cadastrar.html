@@ -13,14 +13,14 @@
 </head>
 <body>
     <header>
-        <h1>Cadastre sua organização</h1>
+        <h1>Cadastre sua <br> organização</h1>
     </header>
 
     <main>
         <section>
-
+            
         </section>
-        <section>
+        <section class="formulário">
             <form autocomplete="off">
                 <p>Nome do responsável</p>
                 <label for="nome"></label>
@@ -39,7 +39,7 @@
                 <input type="text" name="endereco" id="endereco">
             </form>
             <div class="googlemaps">
-                <img src="" alt="">
+                <a href="https://www.google.com.br/maps/?hl=pt-PT"><img src="imagens/Mapa.png" alt="mapa"></a>
             </div>
             <form>
                 <p>Whatsapp</p>
@@ -49,16 +49,17 @@
                 <p>Senha</p>
                 <label for="senha"></label>
                 <input type="password" name="senha" id="senha">
+                <i id="eye" class="fa-sharp fa-regular fa-eye-slash"></i>
 
                 <p>Confirmar Senha</p>
                 <label for="confirmarsenha"></label>
                 <input type="password" name="confirmarsenha" id="confirmarsenha">
+                <i id="eye2" class="fa-sharp fa-regular fa-eye-slash"></i>
             </form>
 
             <div class="enviar">
                 <label for="cadastrar"></label>
-                <input type="submit" value="Cadastrar" id="cadastrar">
-
+                <button id="cadastrar">Cadastrar</button>
                 <a href="Login.html">Já possui conta?</a>
             </div>
         </section>
