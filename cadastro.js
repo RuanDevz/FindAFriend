@@ -2,6 +2,7 @@ const senha = document.getElementById('senha')
 const confirmarsenha = document.getElementById('confirmarsenha')
 const eye = document.getElementById('eye')
 const eye2 = document.getElementById('eye2')
+const cepInput = document.getElementById('cep')
 
 eye.addEventListener('click', trocareye)
 eye2.addEventListener('click',trocareye2)
@@ -29,3 +30,7 @@ function trocareye2(){
         confirmarsenha.type = 'password';
     }
 }
+
+const cepmask = Imask(cepInput,{
+    mask: '00000-000'
+})
