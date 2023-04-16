@@ -15,6 +15,10 @@ header h1{
     line-height: 30px;
 }
 
+.imagem{
+    display: none ;
+}
+
 p{
     color: #0D3B66;
     font-weight: bolder;
@@ -85,4 +89,150 @@ p{
     text-decoration: none;
     border-radius: 10px;
     margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1280px) {
+    .imagem{
+        display: block;
+        width: 488px;
+        height: 600px;
+        background: #F15156;
+        border-radius: 20px;
+        position: relative;
+        transform: translate(30%, -15%);
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 9px;
+        margin-top: 50px;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .imagem img#cachorro{
+        width: 450px;
+        margin-top: 250px;
+        margin-left: 20px;
+    }
+
+    .formulário{
+        max-width: 500px;
+    }
+
+    .fa-eye-slash{
+        position: absolute;
+        transform: translate(-180%, 175%);
+        color: #819AB0;
+        cursor: pointer;
+    }
+    
+    .fa-eye{
+        position: absolute;
+        transform: translate(-192%, 175%);
+        color: #819AB0;
+        cursor: pointer;
+    }
+
+    .formulário input{
+        width: 410px;
+        padding: 15px;
+        font-size: 1.1em;
+    }
+
+    .googlemaps img{
+        width: 400px;
+    }
+    header h1{
+        margin-left: 700px;
+    }
+
+    p{
+        margin-left: 9px;
+    }
+
+    main{
+        display: flex;
+    }
+
+    button#cadastrar{
+        width: 400px;
+        padding: 15px 0px;
+    }
+
+    .enviar a{
+        width: 400px;
+        padding: 15px 0px;
+    }
+
+    button#cadastrar:hover{
+        background: #124b80;
+        cursor: pointer;
+    }
+
+    .enviar a:hover{
+        background: #e2e5e7;
+    }
+
+    @media screen and (min-width: 1550px) {
+        header h1{
+            margin-left: 1150px;
+            font-size: 3em;
+            line-height: 50px;
+        }
+
+        .formulário input{
+            width: 600px;
+        }
+
+        .googlemaps img{
+            width: 600px;
+        }
+
+        .fa-eye-slash{
+            position: absolute;
+            transform: translate(1500%, -290%);
+            color: #819AB0;
+            cursor: pointer;
+        }
+
+        .fa-eye{
+            position: absolute;
+            transform: translate(1672%, -290%);
+            color: #819AB0;
+            cursor: pointer;
+        }
+
+        .enviar button#cadastrar{
+            width: 600px;
+            margin-left: 100px;
+            padding: 25px 0px;
+            font-size: 1.3em;
+        }
+
+        .enviar a{
+            width: 600px;
+            margin-left: 100px;
+            padding: 25px 0px;
+            font-size: 1.3em;
+        }
+
+        .imagem{
+            width: 700px;
+            height: 800px;
+        }
+
+        .imagem img#cachorro{
+            width: 640px;
+            margin-top: 330px;
+            margin-left: 30px;
+        }
+
+        .logo{
+            font-size: 2em;
+        }
+    }
 }

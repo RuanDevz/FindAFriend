@@ -188,6 +188,10 @@ img{
         font-size: 2em;
         color: white;
         padding-top: 120px;
+    }    .fa-eye-slash{
+        position: absolute;
+        transform: translate(-180%, 175%);
+        color: #819AB0
     }
 
     @media screen and (min-width: 1920px) {

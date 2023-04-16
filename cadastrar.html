@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="stylecadastro.css">
-    <title>Document</title>
+    <title>FindAFriend - Cadastrar-se</title>
 </head>
 <body>
     <header>
@@ -17,8 +17,12 @@
     </header>
 
     <main>
-        <section>
-            
+        <section class="imagem">
+            <div class="logo">
+                <h1>FindAFriend</h1>
+                <img src="imagens/Doge.png" alt="">
+            </div>
+            <img id="cachorro" src="imagens/OBJECTS.png" alt="">
         </section>
         <section class="formulário">
             <form autocomplete="off">
@@ -32,14 +36,14 @@
 
                 <p>CEP</p>
                 <label for="cep"></label>
-                <input type="text" name="cep" id="cep" placeholder="Insira o CEP da sua cidade">
+                <input type="text" name="cep" id="cep" placeholder="Insira o CEP da sua cidade" maxlength="8">
 
                 <p>Endereço</p>
                 <label for="endereco"></label>
                 <input type="text" name="endereco" id="endereco" placeholder="Insira seu endereço">
             </form>
             <div class="googlemaps">
-                <a href="https://www.google.com.br/maps/?hl=pt-PT"><img src="imagens/Mapa.png" alt="mapa"></a>
+                <a target = '_blank' href="https://www.google.com.br/maps/?hl=pt-PT"><img src="imagens/Mapa.png" alt="mapa"></a>
             </div>
             <form>
                 <p>Whatsapp</p>
