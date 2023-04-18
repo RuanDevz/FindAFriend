@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paginainicial.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/Doge.png" alt="Logo">
+    </header>
+    <nav>
+        <select id="sigla">
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option selected value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select>
+        <select id="cidade">
+            <option value="sp">São Paulo</option>
+        </select>
+
+        <a href=""><button id="buscar"></button></a>
+    </nav>
+    <main>
+        <section class="opcoes">
+            <h1>Filtros</h1>
+            <div class="primeiroselect">
+                <p>Idade</p>
+                <select id="idade">
+                    <option value="Filhote">Filhote</option>
+                    <option value="adulto">Adulto</option>
+                    <option value="Velinho">Velinho</option>
+                </select>
+                <p>Nível de energia</p>
+                <select id="energia">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="segundoselect">
+                <p>Porte</p>
+                <select id="tamanho">
+                    <option value="Pequenino">Pequenino</option>
+                    <option value="Médio">Médio</option>
+                    <option value="Grandão">Grandão</option>
+                </select>
+                <p>indepedencia</p>
+                <select id="indepedencia">
+                    <option value="Baixo">Baixo</option>
+                    <option value="Médio">Médio</option>
+                    <option value="Alta">Alta</option>a
+                </select>
+            </div>
+        </section>
+        <section class="filtros">
+            <div class="filtrosdeanimais">
+                <p>Encontre <strong>324 amigos</strong> na sua cidade</p>
+                <select id="tiposdebicho">
+                    <option value="Gatos e Cachorros">Gatos e Cachorros</option>
+                    <option value="Passarinhos">Passarinhos</option>
+                    <option value="Ratinhos">Ratinhos</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+            <div class="listadebichos">
+                <div class="alfredo">
+                    <img src="Imagens dos animais/Alfredo.png" alt="Alfredo">
+                    <img id="logo" src="Logo dos animais/Logo cachorro.png" alt="Logocachorro">
+                    <p id="nome" >Alfredo</p>
+                </div>
+                <div class="juscelino">
+                    <img src="Imagens dos animais/Juscelino.png" alt="Juscelino">
+                    <img id="logo" src="Logo dos animais/Logo dos gatos.png" alt="Logogato">
+                    <p id="nome" >Juscelino</p>
+                </div>
+                <div class="Getúlio">
+                    <img src="Imagens dos animais/Getulio.png" alt="Getulio">
+                    <img id="logo" src="Logo dos animais/botao dog.png" alt="Logocachorro">
+                    <p id="nome" >Getúlio</p>
+                </div>
+                <div class="Bernadete">
+                    <img src="Imagens dos animais/Bernadete.png" alt="Bernadete">
+                    <img id="logo" src="Logo dos animais/Logo dos gatos.png" alt="logogato">
+                    <p id="nome">Bernadete</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

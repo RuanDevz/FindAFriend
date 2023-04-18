@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'nunito';
+}
+
+header{
+    background: #E44449;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    background: #E44449;
+    padding: 30px 0px;
+}
+
+select#sigla{
+    background: #E44449;
+    border: 1px solid #ff595f;
+    color: white;
+    font-size: 1em;
+    text-indent:13px ;
+    border-radius: 20px;
+    width: 67px;
+}
+
+select#cidade{
+    border: none;
+    background: #E44449;
+    border: 1px solid #ff595f;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('imagens/seta.png');
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    text-indent: 0.01px;
+    text-overflow: '';
+    padding:15px;
+    font-size: 1em;
+    border-radius: 20px;
+    width: 145px;
+}
+
+button#buscar{
+    background: #F4D35E;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    border: none;
+    background-image: url("imagens/Procurar.png");
+}
+
+.opcoes{
+    background: #F15156;
+    color: white;
+}
+
+.opcoes select{
+    background: #F75F64;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.opcoes h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.7em;
+}
+
+.primeiroselect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.segundoselect{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+
+}
+
+.filtrosdeanimais{
+    
+}
+
+.filtrosdeanimais p{
+    text-align: center;
+    color: #0D3B66;
+    padding: 10px 0px;
+}
+
+.filtrosdeanimais p strong{
+    color: #0f304e;
+}
+
+.filtrosdeanimais select{
+    display: block;
+    margin: 0 auto;
+    padding: 0px 0px;
+    background: #FBE1E2;
+    color: #0D3B66;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.filtros{
+    background: #FDECED;
+}
+.alfredo{
+    width: 280px;
+    height: 209px;
+    background: #0D3B66;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.alfredo p#nome{
+    color: white;
+}
+
+.alfredo img{
+    margin-left: 3px;
+}
+
+p#nome{
+    text-align: center;
+    color: #0D3B66;
+    font-weight: bolder;
+    position: relative;
+    transform: translate(1%, -90%);
+}
+
+img#logo{
+    position: relative;
+    transform: translate(225%, -65%);
+}
+
+.juscelino{
+    width: 280px;
+    height: 209px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.Getúlio{
+    width: 280px;
+    height: 209px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.Bernadete{
+    width: 280px;
+    height: 209px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
