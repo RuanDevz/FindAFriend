@@ -257,4 +257,8 @@ div#block{
         gap: 60%;
         left: 1%;
     }
+
+    button#buscar{
+        cursor: pointer;
+    }
 }
