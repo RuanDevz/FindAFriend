@@ -96,9 +96,6 @@ button#buscar{
 
 }
 
-.filtrosdeanimais{
-    
-}
 
 .filtrosdeanimais p{
     text-align: center;
@@ -123,20 +120,12 @@ button#buscar{
 .filtros{
     background: #FDECED;
 }
-.alfredo{
-    width: 280px;
-    height: 209px;
-    background: #0D3B66;
-    margin: 0 auto;
-    margin-top: 30px;
-    border-radius: 20px;
-}
 
 .alfredo p#nome{
     color: white;
 }
 
-.alfredo img{
+img#foto{
     margin-left: 3px;
 }
 
@@ -153,7 +142,7 @@ img#logo{
     transform: translate(225%, -65%);
 }
 
-.juscelino{
+div#block{
     width: 280px;
     height: 209px;
     background: #fff;
@@ -162,21 +151,3 @@ img#logo{
     border-radius: 20px;
 }
 
-
-.Getúlio{
-    width: 280px;
-    height: 209px;
-    background: #fff;
-    margin: 0 auto;
-    margin-top: 30px;
-    border-radius: 20px;
-}
-
-.Bernadete{
-    width: 280px;
-    height: 209px;
-    background: #fff;
-    margin: 0 auto;
-    margin-top: 30px;
-    border-radius: 20px;
-}
