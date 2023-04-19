@@ -58,11 +58,14 @@ input#senha{
     position: relative;
 }
 
-input#botao{
+a#botao{
     margin-top: 30px;
     background: #0D3B66;
     color: #fff;
-    width: 330px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
 }
 
 .fa-eye-slash{
@@ -85,7 +88,6 @@ input#botao{
 
 a{
     text-decoration: none;
-    background: #F3F5F7;
     font-weight: bolder;
     color: #0D3B66;
     padding: 10px;
