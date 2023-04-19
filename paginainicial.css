@@ -121,9 +121,6 @@ button#buscar{
     background: #FDECED;
 }
 
-.alfredo p#nome{
-    color: white;
-}
 
 img#foto{
     margin-left: 3px;
@@ -149,5 +146,6 @@ div#block{
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
