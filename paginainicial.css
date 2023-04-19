@@ -12,6 +12,11 @@ header{
     display: flex;
     justify-content: center;
     padding: 30px;
+    width: 100%;
+}
+
+header h1{
+    display: none;
 }
 nav{
     display: flex;
@@ -95,7 +100,9 @@ button#buscar{
     padding: 30px 0px;
 
 }
-
+.filtrosdeanimais{
+    width: 100%;
+}
 
 .filtrosdeanimais p{
     text-align: center;
@@ -149,23 +156,39 @@ div#block{
     cursor: pointer;
 }
 
-@media screen and (min-width: 1092px) {
+@media screen and (min-width: 1280px) {
+
+    body{
+        background: #FDECED;
+    }
     header{
         display: flex;
         justify-content: left;
         padding-left: 50px;
-        width: 400px;
+        width: 380px;
+    }
+
+    header h1{
+        display: block;
+        position: absolute;
+        left: 50%;
+        color: #0D3B66;
+        font-weight: bolder;
+    }
+
+    main{
+        display: flex;
     }
 
     nav{
         display: flex;
         justify-content: left;
-        width: 400px;
+        width: 380px;
         padding-left: 50px;
     }
 
     .opcoes{
-        width: 400px;
+        width:380px ;
         display: flex;
         flex-direction: column;;
         height: 60vw;
@@ -209,5 +232,24 @@ div#block{
     .segundoselect select{
         width: 270px;
     }
-}
 
+    .listadebichos{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .filtros{
+        margin-left: 15px;
+        margin: 0;
+    }
+
+    .filtrosdeanimais{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        position: relative;
+        gap: 900px;
+        left: 1%;
+    }
+}
