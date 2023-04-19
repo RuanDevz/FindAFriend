@@ -156,7 +156,12 @@ div#block{
     cursor: pointer;
 }
 
-@media screen and (min-width: 1280px) {
+.listadebichos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1558px) {
 
     body{
         background: #FDECED;
@@ -249,7 +254,7 @@ div#block{
         justify-content: space-between;
         margin-left: 50px;
         position: relative;
-        gap: 900px;
+        gap: 60%;
         left: 1%;
     }
 }
