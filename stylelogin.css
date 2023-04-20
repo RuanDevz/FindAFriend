@@ -222,6 +222,26 @@ img{
             position: relative;
             transform: translate(-3%, 0%);
         }
+
+        .fa-eye{
+            position: absolute;
+            transform: translate(1230%, -280%);
+            font-size: 1.2em;
+            color: #819AB0
+        }
+
+        .fa-eye-slash{
+            position: absolute;
+            transform:  translate(1096%, -282%);
+        }
+
+        a#botao{
+            width: 488px;
+        }
+
+        a#botao:hover{
+            background-color: #124e86;
+        }
     }
 }
 
