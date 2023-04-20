@@ -76,12 +76,14 @@ a#botao:hover{
     position: absolute;
     transform: translate(-164%, 125%);
     cursor: pointer;
+    color: #819AB0
 }
 
 .fa-eye{
     position: absolute;
     transform: translate(-164%, 125%);
     cursor: pointer;
+    color: #819AB0
 }
 
 .btn{
@@ -149,12 +151,14 @@ img{
         position: absolute;
         transform:  translate(1100%, -280%);
         font-size: 1.2em;
+        color: #819AB0
     }
 
     .fa-eye{
         position: absolute;
         transform:  translate(1230%, -280%);
         font-size: 1.2em;
+        color: #819AB0
     }
     header h1{
         padding: 0;
@@ -194,10 +198,6 @@ img{
         font-size: 2em;
         color: white;
         padding-top: 120px;
-    }    .fa-eye-slash{
-        position: absolute;
-        transform: translate(-180%, 175%);
-        color: #819AB0
     }
 
     a#botao{
