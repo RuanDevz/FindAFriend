@@ -184,7 +184,7 @@ div#block{
         background: #555;
       }
 
-@media screen and (min-width: 1558px) {
+@media screen and (min-width: 1283px) {
 
     body{
         background: #FDECED;
@@ -275,9 +275,9 @@ div#block{
     .filtrosdeanimais{
         display: flex;
         justify-content: space-between;
-        margin-left: 50px;
+        margin-left: 23px;
         position: relative;
-        gap: 60%;
+        gap: 45%;
         left: 1%;
     }
 
