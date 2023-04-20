@@ -68,6 +68,10 @@ a#botao{
     border: none;
 }
 
+a#botao:hover{
+    background-color: #124e86;
+}
+
 .fa-eye-slash{
     position: absolute;
     transform: translate(-164%, 125%);
@@ -154,9 +158,9 @@ img{
     }
     header h1{
         padding: 0;
-        margin-left: 780px;
         position: relative;
-        transform: translate(0%, 150%);
+        left: 21%;
+        transform: translate(10%,93px);
         font-size: 3em;
     }
 
@@ -196,9 +200,14 @@ img{
         color: #819AB0
     }
 
+    a#botao{
+        width: 488px;
+    }
+
     @media screen and (min-width: 1920px) {
         header h1{
-            margin-left: 1290px;
+            position: relative;
+            left: 26%;
             margin-top: 100px;
         }
 
